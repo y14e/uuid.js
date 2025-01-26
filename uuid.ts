@@ -1,4 +1,4 @@
-function getUUID(): string {
+function generateUUID(): string {
   if (typeof crypto.randomUUID === 'function') {
     return crypto.randomUUID();
   }
@@ -7,4 +7,4 @@ function getUUID(): string {
   return uuid;
 }
 
-export { getUUID };
+export { generateUUID };

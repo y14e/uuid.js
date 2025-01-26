@@ -1,4 +1,4 @@
-function getUUID() {
+function generateUUID() {
   if (typeof crypto.randomUUID === 'function') {
     return crypto.randomUUID();
   }
@@ -7,4 +7,4 @@ function getUUID() {
   return uuid;
 }
 
-export { getUUID };
+export { generateUUID };
