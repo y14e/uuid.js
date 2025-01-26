@@ -1,2 +1,2 @@
 # uuid.js
-JS snippet for getting a UUID.
+JS snippet for generate a UUID.
